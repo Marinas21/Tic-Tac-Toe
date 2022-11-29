@@ -1,0 +1,23 @@
+ /*This is the style sheet for the container */
+ .container{
+            -fx-background-color: yellow;
+            -fx-border-color: green;
+            -fx-pref-height:200;
+            -fx-pref-width:200;
+}
+
+.container:hover{
+    -fx-cursor: hand;
+}
+.game-container{
+            -fx-background-color: yellow;
+            -fx-border-color: green;
+            -fx-pref-height:200;
+            -fx-pref-width:200;
+            -fx-alignment: center ;
+            -fx-font-size:100;
+}
+
+.game-container:hover{
+    -fx-cursor: hand;
+}
